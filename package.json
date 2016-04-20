@@ -8,7 +8,9 @@
   },
   "browserify": {
     "transform": [
-      "browserify-shim", "babelify", "hbsfy"
+      "browserify-shim",
+      "babelify",
+      "hbsfy"
     ]
   },
   "browserify-shim": {
@@ -39,9 +41,11 @@
   },
   "dependencies": {
     "babelify": "^6.4.0",
+    "bigwheel": "^3.0.0",
     "browserify": "^12.0.1",
     "browserify-shim": "^3.8.11",
     "chalk": "^1.1.1",
+    "gsap": "^1.18.3",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-rename": "^1.2.2",
     "gulp-sourcemaps": "^1.6.0",
